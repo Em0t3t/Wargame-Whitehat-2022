@@ -179,4 +179,4 @@
 
     ```
 
-    [![Dirsearch demo](https://asciinema.org/a/Q77toB3tJwg5uk5Vnu5Kw4LZ4.svg)](https://asciinema.org/a/Q77toB3tJwg5uk5Vnu5Kw4LZ4)
+    ![](tmp/gifb1.gif)
