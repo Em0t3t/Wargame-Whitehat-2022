@@ -1,7 +1,7 @@
 # Problem
 - Name: Art
 - Point: 128
-- Solved: > 48
+- Solved: 48
 - Description:
   ```sh
   The best thing about a picture is that it never changes, even when the people in it do, or when it is zoomed in
@@ -13,7 +13,9 @@
 
 # Solution
 - Sau khi tải file về  ta được 1 file [misc02-Art.txt](challenge/misc02-Art.txt). Sau khi mở file này ra, bằng kinh nghiệm đã từng đọc 7749 cái writeup, ta có thể  biết được mỗi dòng sẽ gồm 3 số, mỗi số sẽ chạy từ 0-255, hay nói cách khác mỗi số sẽ đại diện 1 byte, và khi liên kết 3 bytes lại với nhau ta được 1 pixel của 1 bức ảnh.
+
     ![image](tmp/picb1.png)
+
 - Đến đây thì ta có thể thấy file này có 238183 dòng (hoặc bạn có thể dùng **wc -l misc02-Art.txt**), có nghĩa là bức ảnh sẽ gồm 238183 pixel. Đến đây nhẩm tí thì ra 6 cặp chiều dài và chiều rộng của bức ảnh: 11x21653, 59x4037, 367x649 và ngược lại (đơn vị pixel).
 - Giờ thì chỉ việc code 1 hàm python để  tạo ra 1 bức ảnh từ 238183 pixel thôi.
   ```python
@@ -58,7 +60,8 @@
   ```
 
 - Sau khi chạy xong đoạn code trên ta thu được 6 bức ảnh trong đó có 1 bức chứa 99.99% cái link dẫn đến flag.
-  ![image](picb2.png)
+
+  ![image](tmp/picb2.png)
 
 - Đến đây thì mình có dùng Python để code 1 đoạn bruteforce cái link đấy rồi gởi request đi nhưng tạch vì cứ bị thằng cloudflare bắt giải captcha :TT
 
@@ -101,6 +104,7 @@
   done
 
   ```
+
   ![image](tmp/picb3.png)
 
 # "After Credit"
@@ -175,4 +179,4 @@
 
     ```
 
-    ![Demo](https://asciinema.org/a/Q77toB3tJwg5uk5Vnu5Kw4LZ4.svg)](https://asciinema.org/a/Q77toB3tJwg5uk5Vnu5Kw4LZ4)
+    ![Demo](https://asciinema.org/a/Q77toB3tJwg5uk5Vnu5Kw4LZ4)
