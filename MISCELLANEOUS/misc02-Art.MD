@@ -179,4 +179,4 @@
 
     ```
 
-    ![Alt Text](https://asciinema.org/a/Q77toB3tJwg5uk5Vnu5Kw4LZ4)
+    ![](https://asciinema.org/a/Q77toB3tJwg5uk5Vnu5Kw4LZ4)
